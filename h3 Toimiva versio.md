@@ -78,6 +78,9 @@ Selvittelen ensi tunnilla, kuinka ratkaista kyseinen ongelma.
 # Lähteet
 
 terokarvinen.com
+
 https://github.com/git-guides
+
 https://git-scm.com/
+
 Kurssin tehtäväsivut
