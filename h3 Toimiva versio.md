@@ -72,6 +72,7 @@ Koitin asentaa Saltin uudelleen koneelle, mutta Salt ei silti suostunut yhteisty
 
 ![image](https://github.com/LeeviHuttunen/Palvelintenhallinta/assets/165004822/e7735e65-52f4-4423-b94c-f1100203dc3b)
 
+Yritin myös tarkkaa polkua, mutta ei silti toiminut.
 Selvittelen ensi tunnilla, kuinka ratkaista kyseinen ongelma.
 
 # Lähteet
