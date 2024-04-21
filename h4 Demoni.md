@@ -27,6 +27,7 @@ Ja sitten kokeilin toimiiko. Kyllä toimii! Eli näin on tehty hello world-tila
 ![Näyttökuva 2024-04-20 223730](https://github.com/LeeviHuttunen/Palvelintenhallinta/assets/165004822/60a4cb1d-81a3-4e7b-a458-d5e407d0b016)
 
 
+
 # b) Top. Tee top.sls niin, että useita valitsemiasi tiloja ajetaan automaattisesti
 
 Tein vielä toisen tilan samaan tiedostoon. Annoin käskyn asentaa paketti curl samalla hello worldin kanssa:
@@ -37,8 +38,24 @@ Ja sitten vielä testasin, että salt tekee ne samaan aikaan. Ja kyllä teki.
 
 ![image](https://github.com/LeeviHuttunen/Palvelintenhallinta/assets/165004822/c45a90b4-5b97-4dd3-98b5-2c109976ddb5)
 
-# c) 
 
+# c) Apache easy mode. Asenna Apache, korvaa sen testisivu ja varmista, että demoni käynnistyy
 
+Ensiksi koitin asentaa Apachen, mutta se olikin jo asennettu aikaisemmin:
 
+![image](https://github.com/LeeviHuttunen/Palvelintenhallinta/assets/165004822/242d4bae-0b1f-4d81-83e9-85e5cf922fb9)
+
+Seuraavaksi menin muokkaamaan Apache tiedostoja: Ensiksi kävin katsomassa sites-available ja muokkaamassa sitä kyseiseen muotoon:
+
+![image](https://github.com/LeeviHuttunen/Palvelintenhallinta/assets/165004822/0f775261-7b9e-4653-8f1d-e980daf71c77)
+
+Ja sitten tein paikkaan home/etusivu index.html tiedoston, jossa lukee tervehdys:
+
+![image](https://github.com/LeeviHuttunen/Palvelintenhallinta/assets/165004822/48dd7f28-fc34-4dda-9558-ff280dc2869f)
+
+Ja sitten restartin jälkeen vain testaaamaan, että toimiiko:
+
+![image](https://github.com/LeeviHuttunen/Palvelintenhallinta/assets/165004822/b3f8f9c0-8941-4295-bfd6-350684a90295)
+
+Ja näin se on tehty manuaalisesti. Seuraavassa vaiheessa pyydettiin automatisoimaan nämä asiat. Joten 
 
