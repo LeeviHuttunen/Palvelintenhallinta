@@ -57,5 +57,61 @@ Ja sitten restartin jälkeen vain testaaamaan, että toimiiko:
 
 ![image](https://github.com/LeeviHuttunen/Palvelintenhallinta/assets/165004822/b3f8f9c0-8941-4295-bfd6-350684a90295)
 
-Ja näin se on tehty manuaalisesti. Seuraavassa vaiheessa pyydettiin automatisoimaan nämä asiat. Joten 
+Ja näin se on tehty manuaalisesti. Seuraavassa vaiheessa pyydettiin automatisoimaan nämä asiat. Joten ensiksi laitoin muutaman komennon lisää sls-tiedostoon:
 
+![image](https://github.com/LeeviHuttunen/Palvelintenhallinta/assets/165004822/c179e7ae-5586-46a8-84d5-af4d17d2280d)
+
+Seuraavaksi restarttasin apachen ja katsoin toimiiko. Ilmeisesti kello oli väärässä ajassa:
+
+![image](https://github.com/LeeviHuttunen/Palvelintenhallinta/assets/165004822/65e4e348-9602-49e0-a621-286cab799a2f)
+
+Joten korjasin kellon ajan oikeaan seuraavalla komennolla:
+
+![image](https://github.com/LeeviHuttunen/Palvelintenhallinta/assets/165004822/a0d2b2de-1bad-4d50-a040-9e6fe28441d6)
+
+Kokeilin saltia uudelleen, jolloin tuli uusi virhe ilmoitus: salt-master ei vastaa:
+
+![image](https://github.com/LeeviHuttunen/Palvelintenhallinta/assets/165004822/7dee3b03-5904-4228-bc59-4f5fd8427907)
+
+Käynnistin Apachen jälleen uudelleen ja kokeilin uudelleen. Hetken kuluttua tuli ilmoitus, että homma toimii:
+
+![image](https://github.com/LeeviHuttunen/Palvelintenhallinta/assets/165004822/e94aac22-9517-4fd0-9c33-0bb0f24ed477)
+
+
+# d) SSHouto. Lisää uusi portti, jossa SSHd kuuntelee.
+
+Ensiksi menin sshd_config tiedostoon:
+
+![image](https://github.com/LeeviHuttunen/Palvelintenhallinta/assets/165004822/cd358b14-e231-40d2-91cc-67090c3be2a7)
+
+Jossa pyydettiin jättämään port 22 auki. Käsitykseni mukaan se kuitenkin oli jo auki tässä tiedostossa ja otin # edestä pois.
+
+![image](https://github.com/LeeviHuttunen/Palvelintenhallinta/assets/165004822/0c61bcc0-f5f2-4469-ad2b-5db58921ade2)
+
+Seuraavaksi tein uuden sls-tiedostoon muutoksia:
+
+![image](https://github.com/LeeviHuttunen/Palvelintenhallinta/assets/165004822/426e0f9e-d622-45e8-acfd-2b0fdb560f76)
+
+Ja sitten vielä srv/salt hakemistoon tilojen lisäys:
+
+![image](https://github.com/LeeviHuttunen/Palvelintenhallinta/assets/165004822/69cfc31b-e475-466d-a7ea-7b2fc5c6e4ad)
+
+Ja sitten testattiin, homma toimii:
+
+![image](https://github.com/LeeviHuttunen/Palvelintenhallinta/assets/165004822/6ea8ffa7-57ab-446c-bd6d-7c4fb51e6c7f)
+
+Näiden tehtävien jälkeen harjoittelin vielä hieman apachen asennusta tyhjälle virtuaalikoneelle, jotta se tulisi 
+tutummaksi :)
+
+
+## Lähteet:
+
+Karvinen, T. Name Based Virtual Hosts on Apache. Luettavissa: https://terokarvinen.com/2018/name-based-virtual-hosts-on-apache-multiple-websites-to-single-ip-address/?fromSearch=virtual%20host Luettu: 21.4.2024
+
+Karvinen, T. Configuration management. Luettavissa: https://terokarvinen.com/2024/configuration-management-2024-spring/ Luettu: 21.4.2024
+
+Karvinen, T. Salt Vagrant. Luettavissa: https://terokarvinen.com/2023/salt-vagrant/#infra-as-code---your-wishes-as-a-text-file Luettu 21.4.2024
+
+Karvinen, T. Pkg-file-service. Luettavissa: https://terokarvinen.com/2018/04/03/pkg-file-service-control-daemons-with-salt-change-ssh-server-port/?fromSearch=karvinen%20salt%20ssh Luettu: 21.4.2024
+
+Saltproject.io Salt overview. Luettavissa: https://docs.saltproject.io/salt/user-guide/en/latest/topics/overview.html#rules-of-yaml Luettu 21.4.2024
