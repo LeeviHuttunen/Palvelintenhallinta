@@ -29,6 +29,14 @@ Koneen kokonaismuisti:
 ![image](https://github.com/LeeviHuttunen/Palvelintenhallinta/assets/165004822/2805b03d-8e41-4ccc-98e7-2640f52ca013)
 
 
-# c) 
+# c)  Kokeile Saltin file -toimintoa Windowsilla tai Macilla.
+
+Tein uuden file.managed-tilan tekstieditorilla kohteeseen /srv/salt. Jostain syystä en saanut kuitenkaan tilaa toimimaan. 
+
+![image](https://github.com/LeeviHuttunen/Palvelintenhallinta/assets/165004822/5e4a0f66-b2cf-4753-b8f2-4593422ceac3)
+
+Yllä kyseinen tiedosto.
+
+
 
 
