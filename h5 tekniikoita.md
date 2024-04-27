@@ -38,5 +38,22 @@ Tein uuden file.managed-tilan tekstieditorilla kohteeseen /srv/salt. Jostain syy
 Yllä kyseinen tiedosto.
 
 
+# d) Näytä 'find' avulla viimeisimmäksi muokatut tiedostot /etc/-hakemistosta ja kotihakemistostasi
+
+Aluksi ihmettelin, missä etc-hakemistoni on windowsissa. Pienen etsinnän jälkeen se löytyi polusta C:/Windows/System32/drivers/etc
+En ole koskaan käynyt kyseisessä hakemistolla omalla koneella, kuten alla olevan kuvan muokkaus päivämääristä voidaan päätellä. 
+
+![image](https://github.com/LeeviHuttunen/Palvelintenhallinta/assets/165004822/ef10c9c4-0eda-4547-b774-a782b1f9ab3f)
+
+"Get Child-Item" komennolla saadaan tietoja 
+Asetin kuvassa olevat tiedostot järjestykseen komennolla "Sort-Object LastWriteTime" ja valitsin viisi tiedostoa komennolla "Select-Object -First 5"
+
+Ja tässä vielä sama juttu omasta kotihakemistostani:
+
+![image](https://github.com/LeeviHuttunen/Palvelintenhallinta/assets/165004822/c0415c17-44c4-4c73-8e17-8a55d428a140)
+
+
+e) 
+
 
 
