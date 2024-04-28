@@ -31,11 +31,15 @@ Koneen kokonaismuisti:
 
 # c)  Kokeile Saltin file -toimintoa Windowsilla tai Macilla.
 
-Tein uuden file.managed-tilan tekstieditorilla kohteeseen /srv/salt. Jostain syystä en saanut kuitenkaan tilaa toimimaan. 
+Tein uuden file.managed-tilan tekstieditorilla kohteeseen /srv/salt/Hello.
 
-![image](https://github.com/LeeviHuttunen/Palvelintenhallinta/assets/165004822/5e4a0f66-b2cf-4753-b8f2-4593422ceac3)
+![image](https://github.com/LeeviHuttunen/Palvelintenhallinta/assets/165004822/1ea23a71-0093-4213-ae9b-48c403c13032)
 
-Yllä kyseinen tiedosto.
+Sitten ajoin tilan komennolla "salt-call --local -l info state.apply Hello --file-root C:\srv\salt\Hello\" 
+Tila suoritettiin, vaikka se ei onnistunut:
+
+![image](https://github.com/LeeviHuttunen/Palvelintenhallinta/assets/165004822/79e4a4b8-b755-484b-bc4e-e1dc6f02478e)
+
 
 
 # d) Näytä 'find' avulla viimeisimmäksi muokatut tiedostot /etc/-hakemistosta ja kotihakemistostasi
@@ -53,7 +57,8 @@ Ja tässä vielä sama juttu omasta kotihakemistostani:
 ![image](https://github.com/LeeviHuttunen/Palvelintenhallinta/assets/165004822/c0415c17-44c4-4c73-8e17-8a55d428a140)
 
 
-e) 
+# e) Tee Salt-tila, joka asentaa järjestelmään uuden komennon.
+
 
 
 
