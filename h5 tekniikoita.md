@@ -1,10 +1,14 @@
-# x) 
+# x)
+Jälleen lisää Saltia. Tällä kertaa omalla koneella Windowsin Powershellillä, eikä virtuaalikoneella. Oli aika erilainen kokemus, mitä Linuxilla. Tuntuu, että Linuxilla
+Saltin käyttö ja ympäristönhallinta on paljon helpompaa, mitä Windowsilla. Myös esimerkiksi Notepadin käyttö oli mielestäni paljon vaivalloisempaa, kuin esimerkiksi
+Microon tai nanoon kirjoittaminen.
+
 
 
 # a) Asenna Salt Windowsille tai Macille. Osoita 'salt-call --local' komentoa ajamalla, että asennus on onnistunut.
 
 Salt oli jo aikaisemmin asennettu Windowsille. Olin myös aikaisemmin tehnyt hello world-tiedoston. Joten koitin ajaa hello world-tilan komennolla 
-"\srv\salt> salt-call --local -l info state.apply hello --file-root C:/srv/salt/"
+"salt-call --local -l info state.apply hello --file-root C:/srv/salt/"
 
 ![image](https://github.com/LeeviHuttunen/Palvelintenhallinta/assets/165004822/862486e1-753e-4e24-9504-e41d9a51a8ef)
 
@@ -36,7 +40,7 @@ Tein uuden file.managed-tilan tekstieditorilla kohteeseen /srv/salt/Hello.
 ![image](https://github.com/LeeviHuttunen/Palvelintenhallinta/assets/165004822/1ea23a71-0093-4213-ae9b-48c403c13032)
 
 Sitten ajoin tilan komennolla "salt-call --local -l info state.apply Hello --file-root C:\srv\salt\Hello\" 
-Tila suoritettiin, vaikka se ei onnistunut:
+Infon tiedoissa lukee, että tila suoritettiin, vaikka alempana lukee false:
 
 ![image](https://github.com/LeeviHuttunen/Palvelintenhallinta/assets/165004822/79e4a4b8-b755-484b-bc4e-e1dc6f02478e)
 
@@ -59,6 +63,24 @@ Ja tässä vielä sama juttu omasta kotihakemistostani:
 
 # e) Tee Salt-tila, joka asentaa järjestelmään uuden komennon.
 
+Tein uuden moikka viestin. Jälleen tein uuden sls-tiedoston ja muokkasin notepadia:
 
+![image](https://github.com/LeeviHuttunen/Palvelintenhallinta/assets/165004822/960f793d-8984-4d1e-b240-e83e3d119980)
+
+Jonka jälkeen ajoin komennon "salt-call --local -l info state.apply run --file-root C:\srv\salt\Hello\"
+
+![image](https://github.com/LeeviHuttunen/Palvelintenhallinta/assets/165004822/11d7d877-7be4-4dbf-bda0-4f38516ba481)
+
+Ja sieltähän tuli uusi heippa viesti.
+
+
+
+# Lähteet:
+
+Omat aikaisemmat tehtävät
+
+terokarvinen.com/control windows with salt. Luettavissa: https://terokarvinen.com/2018/control-windows-with-salt/?fromSearch=salt%20windows. Luettu 27.4.2024.
+
+terokarvinen.com Configuration management spring 2024. Luettavissa: https://terokarvinen.com/2024/configuration-management-2024-spring/ Luettu 27.4.2024.
 
 
