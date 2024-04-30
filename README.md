@@ -1,2 +1,2 @@
 # Palvelintenhallinta
-Servermanagement homeworks
+Server management homeworks
