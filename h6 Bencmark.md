@@ -28,14 +28,49 @@ Näin Mozilla on kätevästi ladattu yhdellä komennolla. Tunnilla huomasin, ett
 Mietin, voisiko se johtua tietokoneen virusturvasta?
 
 
-# b) b) Benchmark. Etsi 3-7 keskitetyn hallinnan projektia, esimerkiksi tämän kurssin "Oma moduli" lopputyötä.
+# b) Benchmark. Etsi 3-7 keskitetyn hallinnan projektia, esimerkiksi tämän kurssin "Oma moduli" lopputyötä.
 
-1 .Ensimmäisenä silmiini osui Joonas H:n mielenkiintoinen projekti viime joulukuulta, jossa aikomuksena oli tulostaa eri paikkakuntien säätietoa Saltilla 30 minuutin välein.
-Kyseisessä moduulissa oli GPL-3.0-lisenssi, joka siis tarkoittaa, että kyseistä työtä saa muokata ja jakaa. Kyseisessä työssä käytettiin Vagrantin virtuaalikoneita.
+1. Ensimmäisenä silmiini osui Joonas H:n mielenkiintoinen projekti viime joulukuulta, jossa aikomuksena oli tulostaa eri paikkakuntien säätietoa Saltilla 30 minuutin välein.
+Kyseisessä moduulissa oli GPL-3.0-lisenssi, joka siis tarkoittaa, että kyseistä työtä saa muokata ja jakaa. Tässä työssä käytettiin Vagrantin virtuaalikoneita.
+
 Muutamia mielenkiintoisia pointteja oli, että kyseissä työssä käytettiin crontab-tiedoston muokkausta, jota me emme ole käyneet läpi. Tekijä myös vaihtoi lennosta aihetta,
 kun säätiedotukset eivät tulostuneet hänen haluamallaan tavalla. Työ oli kokonaisuudessa hyvin tehty ja onglemia oli hienosti ratkaistu matkan varrella. 
 Tässä vielä kyseinen moduuli :https://github.com/hautadata/palvelintenhallinta-jh-moduuli/blob/main/h7-moduuli.md
 
-2. 
+2. Seuraavaksi selasin läpi Liisa Lesosen miniprojektin. Aiheena oli rakentaa Lamp-stack, eli tässä moduulissa käytettiin Linuxia, Apachea, MariaDB:tä ja Pythonia.
+Moduulissa koneena toimi Vagrant ja sen orjat. Tässä moduulissa ei ollut mitään lisenssiä. Työ oli tehty Joulukuussa 2023.
+
+Liisan ei saanut työssään asennettua MariaDb:tä orjakoneille. Tuli mielenkiintoinen error, jossa luki, että Mariaa ei voi ladata orjakoneille 15 tuntiin. 
+Muuten kaikki sujui niin kuin pitikin. Ohessa vielä linkki moduuliin: https://github.com/LiisaLesonen/palvelintenhallinta/blob/main/h7.md
+
+3. Viimeisenä otin hieman vanhemman moduulin tutkittavaksi. Tommi Muhosen vuonna 2020 tehty miniprojekti käsitteli palomuurin asetuksia, asennettiin apache, curl ja git.
+Määriteltiin myös ssh:n asetuksia.
+
+Tämä moduuli tehtiin wordpress.comiin, joten lisenssejä ei ollut näkyvissä. Harjoitus tehtiin virtuaalikoneella. Harjoitus näytti sujuvan ilman suurempia ongelmia. 
+Linkki projektiin: https://tommimuhonen334781833.wordpress.com/palvelinten-hallinta-harjoitus-7/
+
+
+# c) Aja toisen tekemä tila
+
+Valitsen Liisan modulin, koska haluan nähdä, tuleeko itselle sama ongelma, mikä Liisalle tuli.
+
+Eli ensiksi kirjaudun virtuaalikoneelleni. Siellä on jo masterkone t001 ja orjakone t002 valmiina. Olin asentanut virtuaalikoneelleni jo valmiiksi curlin ja apachen edellisten tehtävien yhteydessä. 
+Asensin ensiksi master-koneelle Mariadb:n, jonka asennus onnistui: 
+
+![image](https://github.com/LeeviHuttunen/Palvelintenhallinta/assets/165004822/6430a622-da8c-42c2-9b15-9dc460c698b8)
+
+Jonka jälkeen asensin saltilla Marian orjakoneelle. Ja taisi ilmeisesti onnistua:
+
+![image](https://github.com/LeeviHuttunen/Palvelintenhallinta/assets/165004822/bf5b9c75-c349-4ede-9a51-64931fc400c3)
+
+Ja serverin asennus onnistui myös:
+
+![image](https://github.com/LeeviHuttunen/Palvelintenhallinta/assets/165004822/ef2fd487-d953-46d4-acc9-7aa0e5e762f8)
+
+Tässä vielä vertailunvuoksi virheilmoitus Liisan moduulista, jossa asennus ei onnistunut:
+
+![image](https://github.com/LeeviHuttunen/Palvelintenhallinta/assets/165004822/997471f1-3b71-465d-9c2c-1e84251f431f)
+
+Moduli oli 
 
 
