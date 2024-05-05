@@ -71,6 +71,28 @@ Tässä vielä vertailunvuoksi virheilmoitus Liisan moduulista, jossa asennus ei
 
 ![image](https://github.com/LeeviHuttunen/Palvelintenhallinta/assets/165004822/997471f1-3b71-465d-9c2c-1e84251f431f)
 
-Moduli oli 
+
+# d) Oma moduli, muutamia ideoita
+
+Käyttäjien hallinta. Luodaan käyttäjiä ja automatisoidaan uudet käyttäjät saltin avulla.
+
+Saltilla ajastettuja tehtäviä. Esimerkiksi luon saltilla tilan joka tekee jonkun ajastetun tehtävän puolen tunnin välein.
+
+Palomuurin ja sovellusten asennuksia ja niiden muokkaamista sls-tiedostoilla.
+
+Luodaan joku tila sls tiedostoon, joka tekee hälytyksen, kun joku ehto täyttyy. En tosin tiedä, kuinka vaikeaa tälläinen olisi tehdä.
+
+Alkuasetukset uudelle virtuaalikoneelle
+
+# Lähteet
+
+H, Joonas. Moduuli. Luettavissa: https://github.com/hautadata/palvelintenhallinta-jh-moduuli/blob/main/h7-moduuli.md Luettu 5.5.2024.
+
+Lesonen, L. Moduuli. Luettavissa: https://github.com/LiisaLesonen/palvelintenhallinta/blob/main/h7.md Luettu 5.5.2024.
+
+Muhonen, T. Moduuli. Luettavissa: https://tommimuhonen334781833.wordpress.com/palvelinten-hallinta-harjoitus-7/ Luettu 5.5.2024.
+
+Karvinen, T. Palvelintenhallinta. Luettavissa: https://terokarvinen.com/2024/configuration-management-2024-spring/ Luettu 5.5.2024.
+
 
 
