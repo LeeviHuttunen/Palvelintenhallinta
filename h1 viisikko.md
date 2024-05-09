@@ -36,7 +36,7 @@ Cmd.run antaa erilaisia komentoja, millä voi automatisoida järjestelmää. Kom
 tapahtui seuraavaa: 
 <img width="309" alt="image" src="https://github.com/LeeviHuttunen/Palvelintenhallinta/assets/165004822/daf8c88a-83ea-442d-8cdd-4a5ddf35c6d1">
 
-Idempotenssi on automaatio, mikä suorittaa samant tuloksen joka kerta, jos se on tehty oikein. En nyt valitettavasti muistanut yhtäkään idempotentti komentoa
+Idempotenssi on automaatio, mikä suorittaa saman tuloksen joka kerta, jos se on tehty oikein. Jos tekee esimerkiksi ylempänä näkyvän komennon uudelleen, siitä tulee idempotenssi.
 
 Laitoin komennon "sudo salt-call --local grains.items", jolloin sain koneen tiedot. 
 Tässä kuvassa näkee, kuinka paljon muistia on:
