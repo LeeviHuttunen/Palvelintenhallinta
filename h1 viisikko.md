@@ -28,6 +28,8 @@ Komento service.running käynnistää tai uudelleenkäynnistää esimerkiksi apa
 Ilmeisesti en ole kuitenkaan asentanut apachea vielä. Jostain syystä en voinut asentaa apachea. Seuraavassa kuva:
 <img width="507" alt="image" src="https://github.com/LeeviHuttunen/Palvelintenhallinta/assets/165004822/ea36425a-4746-4ca5-90fe-8d9f0333378d">
 
+Edit 9.5.2024. Huomasin näin jälkeenpäin, että kirjoitin apache2 erikseen, jonka takia paketti ei latautunut.. :D 
+
 User on käyttäjä tilafunktio. Tein uuden käyttäjän nimeltä Leevi komennolla "sudo salt-call --local -l info state.single user.present Leevi" Käyttäjälle voi lisätä
 myös salasanan, erilaisia ryhmiä käyttäjille ja niin edelleen. Ohessa vielä kuva:
 <img width="239" alt="image" src="https://github.com/LeeviHuttunen/Palvelintenhallinta/assets/165004822/0318a7be-2b48-4b49-9b8f-273e7e422fe8">
