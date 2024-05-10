@@ -28,6 +28,28 @@ Näillä pääsee alkuun, voi olla, että joudutaan vielä myöhemmin latailemaa
 
 ## Apachea ja palomuuria
 
+No niin, sitten päästään konfiguroimaan apachea ja ufw:tä. Ensiksi aletaan temppuilemaan ufw:n kanssa, jotta palomuuri päästää apachen siitä läpi. Katsotaan mitä appeja ufw antaa käyttää:
+
+![image](https://github.com/LeeviHuttunen/Palvelintenhallinta/assets/165004822/aac622c0-f52e-4ca2-9dc9-c4d3f34ad58c)
+
+Valitaan sieltä OpenSSH, jotta palomuuri sallii ssh-yhteyden. Joten komennolla `sudo ufw allow OpenSSH` annettin lupa ssh-yhteydelle:
+
+![image](https://github.com/LeeviHuttunen/Palvelintenhallinta/assets/165004822/3935ce07-10d0-498a-a27a-1e8eaf6c84d9)
+
+Annetaan lupa http:lle. 
+
+![image](https://github.com/LeeviHuttunen/Palvelintenhallinta/assets/165004822/385e787b-c05f-4eed-8e68-39e09cc12e84)
+
+Ja varmuuden vuoksi vielä portti 80:
+
+![image](https://github.com/LeeviHuttunen/Palvelintenhallinta/assets/165004822/31a4d304-78e3-4f7e-9e7e-1db4bf7e29c5)
+
+Sallitaan lupa ulos lähtevälle liikenteelle:
+
+![image](https://github.com/LeeviHuttunen/Palvelintenhallinta/assets/165004822/9e697819-b49b-4715-b2f1-9cb411726f62)
+
+
+
 
 
 
