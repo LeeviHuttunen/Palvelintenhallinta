@@ -13,7 +13,7 @@ netistä, vaan niitä voidaan ladata muutamalla käskyllä. Aivan kuin Linuxilla
 
 # a)  Asenna Windowsiin tai Macciin ohjelmia Saltin pkg.installed -funktiolla.
 Asensin package managerin jo tunnilla, mutta tässä lyhyt kertaus siitä, mitä tein:
-Ensiksi latasin gir-repon seuraavalla komennolla: 
+Ensiksi latasin git-repon seuraavalla komennolla: 
 ![image](https://github.com/LeeviHuttunen/Palvelintenhallinta/assets/165004822/2f88f0f9-0b1a-4964-b109-0ab0a06e9b0e)
 
 Jonka jälkeen päivitin databasen:
