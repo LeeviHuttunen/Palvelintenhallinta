@@ -32,7 +32,8 @@ No niin, sitten päästään konfiguroimaan apachea ja ufw:tä. Ensiksi aletaan 
 
 ![image](https://github.com/LeeviHuttunen/Palvelintenhallinta/assets/165004822/aac622c0-f52e-4ca2-9dc9-c4d3f34ad58c)
 
-Valitaan sieltä OpenSSH, jotta palomuuri sallii ssh-yhteyden. Joten komennolla `sudo ufw allow OpenSSH` annettin lupa ssh-yhteydelle:
+Hmm.. Jännä juttu, siellä pitäisi olla apache..
+Valitaan kuitenkin sieltä OpenSSH, jotta palomuuri sallii ssh-yhteyden. Joten komennolla `sudo ufw allow OpenSSH` annettin lupa ssh-yhteydelle:
 
 ![image](https://github.com/LeeviHuttunen/Palvelintenhallinta/assets/165004822/3935ce07-10d0-498a-a27a-1e8eaf6c84d9)
 
