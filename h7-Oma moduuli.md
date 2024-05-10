@@ -16,7 +16,9 @@ Sitten asensin Saltin, jota hyödynnetään myöhemmin tässä tehtävässä. Ko
 
 Ai niin! Tarvitaan vielä Curl Apachea varten. Asennetaan Curl Salt apuna komennolla `sudo salt-call --local -l info state.single pkg.installed curl` 
 
-Voi olla, että tarvitsee vielä asennella jotain lisää myöhemmin, mutta näillä pääsee alkuun.
+Ja vielä ladataan ufw-palomuuri `sudo apt-get install ufw`
+
+Näillä pääsee alkuun, voi olla, että joudutaan vielä myöhemmin latailemaan lisää joitain paketteja.
 
 
 ## Konfigurointia
