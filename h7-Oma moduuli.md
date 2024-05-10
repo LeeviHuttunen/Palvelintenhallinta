@@ -14,6 +14,11 @@ Sitten asensin Saltin, jota hyödynnetään myöhemmin tässä tehtävässä. Ko
 
 ![image](https://github.com/LeeviHuttunen/Palvelintenhallinta/assets/165004822/10c7971f-f060-4850-9559-905e2b9bd1ef)
 
+Ja katson vielä hello world-tilalla, että homma toimii.
+
+![image](https://github.com/LeeviHuttunen/Palvelintenhallinta/assets/165004822/85637a44-95c8-4b66-b10b-e52bc58b9aa3)
+
+
 Ai niin! Tarvitaan vielä Curl Apachea varten. Asennetaan Curl Salt apuna komennolla `sudo salt-call --local -l info state.single pkg.installed curl` 
 
 Ja vielä ladataan ufw-palomuuri `sudo apt-get install ufw`
@@ -21,7 +26,9 @@ Ja vielä ladataan ufw-palomuuri `sudo apt-get install ufw`
 Näillä pääsee alkuun, voi olla, että joudutaan vielä myöhemmin latailemaan lisää joitain paketteja.
 
 
-## Konfigurointia
+## Apachea ja palomuuria
+
+
 
 
 
