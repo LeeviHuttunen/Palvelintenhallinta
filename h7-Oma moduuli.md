@@ -127,13 +127,38 @@ Mutta ei silti onnistunut. Noh, ei se mitään. Koitin tätä selvitellä pitkä
 ![image](https://github.com/LeeviHuttunen/Palvelintenhallinta/assets/165004822/da6a2b24-7b0a-4ace-8bc5-bf735e2ee542)
 
 
+## Certbot
+
+Noniin, katsotaas minulle uuden tuttavuuden Certbotin toimintaa. Certbot on avoimen lähdekoodin työkalu, jolla voi saada omalle nettisivulleen https-sertifikaatin. Sertifikaatti uusiutuu 60 päivän välein. Muistaakseni, kun sivun vaihtaa https:ssään, se menee hetkeksi hakutuloksissa viimeiseksi. 
 
 
+Ensimmäiseksi pitäisi asentaa snap. Snap on paketinhallintajärjestelmä, saman tyyppinen kuin apt.
 
+Asennetaan snap kommennolla `sudo apt install snapd` 
+Seuraavaksi pyydettiin käynnistämään kone uudelleen, jotta snapin polut menevät oikeille paikoille? :D
+Toki voi olla, että tällä tarkoitettiin apachea, en ole täysin varma.
 
+![image](https://github.com/LeeviHuttunen/Palvelintenhallinta/assets/165004822/a752fe53-4557-47dc-932a-5fffeb73e46b)
 
+Tein kuitenkin työtä käskettyä.
 
+Seuraavaksi asennetaan uusin snapin versio komennolla `sudo snap install core`
 
+![image](https://github.com/LeeviHuttunen/Palvelintenhallinta/assets/165004822/8228bc3c-1969-4892-8da3-0143d4071acf)
+
+Asennus onnistui. 
+
+Sitten asennetaan vielä snapilla hello world. 
+
+![image](https://github.com/LeeviHuttunen/Palvelintenhallinta/assets/165004822/71e1ecfd-e2f9-4719-9f1d-fd61102d81f5)
+
+Hello worldin asennus onnistui. 
+
+Komennolla `hello-world` näkee toimiiko se:
+
+![image](https://github.com/LeeviHuttunen/Palvelintenhallinta/assets/165004822/477b0dc8-b4cb-4827-8fa5-1935f1a30933)
+
+Toimii, Jee!
 
 
 
@@ -143,5 +168,5 @@ Mutta ei silti onnistunut. Noh, ei se mitään. Koitin tätä selvitellä pitkä
 
 - Apachen serverin asetuksia. Luettavissa: https://ubuntu.com/server/docs/how-to-configure-apache2-settings Luettu 11.5.2024
 
-- 
+- Certbotin sivut. Luettavissa: https://certbot.eff.org/instructions?ws=apache&os=debianbuster Luettu 11.5.2024
 
