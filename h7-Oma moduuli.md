@@ -87,11 +87,11 @@ Menin siis tässä vaiheessa muokkaamaan index.html:llää. Tässä jonkinlainen
 ![image](https://github.com/LeeviHuttunen/Palvelintenhallinta/assets/165004822/baecafe0-3c37-44f5-b896-eb358743e6d2)
 
 Aloitan tässä kohtaa "matalilla roikkuvista hedelmistä", eli teen ensin pienemmän koodin pätkän ja katson toimiiko se.
-Kyllähän se harmittaisi koodata monta tuntia jotain huomatakseen, ettei homma toimi.
+Kyllähän se harmittaisi koodata monta tuntia jotain huomatakseen, ettei homma toimi. Tässä kohtaa käytin apuna kätevää sivua html:llän alkeisiin https://www.w3schools.com/html/html_forms.asp
 
 ![image](https://github.com/LeeviHuttunen/Palvelintenhallinta/assets/165004822/a6c0ecdd-252c-4f48-95ba-b3684120c628)
 
-Noniin, nettisivu päivittyi. Pitää muistaa, ettei html näytä tykkäävään ääkkösistä.
+Noniin, nettisivu päivittyi, eli homma toimii. Pitää muistaa, ettei html näytä tykkäävään ääkkösistä. 
 
 
 
