@@ -47,9 +47,8 @@ Tässä kuvassa näkee, kuinka paljon muistia on:
 Tässä näkee, että virtualbox on käytössä. 
 <img width="121" alt="image" src="https://github.com/LeeviHuttunen/Palvelintenhallinta/assets/165004822/f7cb64b3-4495-41c7-99de-5cbb6559a0dd">
 
-Ja tässä näkee ip6-osoitteen
-## Edit
-Otettu pois näkyvistä.
+## Edit 11.5. Otettu ip-osoite pois näkyvistä
+Ja tässä näkee ip6-osoitteen.
 
 Toivottavasti kaikki kuvat näkyvät :)
 
