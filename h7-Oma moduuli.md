@@ -1,7 +1,7 @@
 # Miniprojekti Leevi Huttunen 2024
 
 # Projektin tarkoitus:
-Projektin tarkoituksena on tehdä jalkapallojoukkueelle kotisivut, jonne lisätään Saltilla uusille käyttäjille käyttäjänimet ja salasanat. Aloitetaan kuitenkin ns. Nollasta, eli ladataan tarvittavat paketit ja määritellään palomuurin ja apachen asetukset. 
+Projektin tarkoituksena oli aluksi tehdä jalkapallojoukkueelle kotisivut, jonne lisätään Saltilla uusille käyttäjille käyttäjänimet ja salasanat. Ladataan tarvittavat paketit ja määritellään palomuurin ja apachen asetukset. Tähän tuli kuitenkin muutos, kun en päässytkään enää virtuaalikoneeseen sisälle yön jälkeen. Onneksi minulla on kuitenkin vielä kurssin alusta jäänyt virtuaalikone, joten tehdään siellä jotain.
 
 ## Aloitus:
 Aivan ensiksi loin uuden virtuaalikoneen komennolla    `vagrant init debian/bullseye64` Sitten kirjauduin koneelle sisään.
@@ -50,9 +50,14 @@ Sallitaan lupa ulos lähtevälle liikenteelle:
 ![image](https://github.com/LeeviHuttunen/Palvelintenhallinta/assets/165004822/9e697819-b49b-4715-b2f1-9cb411726f62)
 
 
+## Seuraavana päivänä
+
+Noniin jätin tämän tähän ja koitin jatkaa projektia seuraavana päivänä. En päässyt enään tuolle samalle Vagrant-koneelle sisään.
+
+![image](https://github.com/LeeviHuttunen/Palvelintenhallinta/assets/165004822/36dc16f4-0adb-4849-bf6f-0c84aa7304ac)
 
 
-
+Pitää vaihtaa taktiikkaa. Ladataan sudoku ja laitetaan saltin orja ratkaisemaan 
 
 
 
