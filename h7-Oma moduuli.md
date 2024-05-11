@@ -72,7 +72,13 @@ Okei, katsotaan nopeasti hello world tilalla saltin toiminta:
 
 ![image](https://github.com/LeeviHuttunen/Palvelintenhallinta/assets/165004822/03e3dcf8-ed2f-4212-a23f-0097cb41e7d1)
 
-Jaahas, sinne oltiin jo laitettu vaikka mitä. Ylimpänä kuitenkin näkyy hello world-tila. Apachen asennus on myös tehty. Katsotaas Curl localhost.
+Jaahas, sinne oltiin jo laitettu vaikka mitä. Ylimpänä kuitenkin näkyy hello world-tila. Apachen asennus on myös tehty. 
+Muokataan etusivu.conf seuraavaan muotoon :
+
+![image](https://github.com/LeeviHuttunen/Palvelintenhallinta/assets/165004822/93947762-562a-4b89-90e2-7e2f0e2fbfed)
+
+
+Katsotaas Curl localhost.
 
 ![image](https://github.com/LeeviHuttunen/Palvelintenhallinta/assets/165004822/b27b5c98-571f-4dc3-8637-d39e14fcd727)
 
@@ -93,8 +99,28 @@ Kyllähän se harmittaisi koodata monta tuntia jotain huomatakseen, ettei homma 
 
 Noniin, nettisivu päivittyi, eli homma toimii. Pitää muistaa, ettei html näytä tykkäävään ääkkösistä. 
 
+Seuraavaksi kokeilin tehdä command idempotentin apachelle. Laitoin seuraavan koodin uuteen init.sls-tiedostoon, johon laitoin seuraavat konfiguroinnit: (otettu terokarvisen materiaaleista https://terokarvinen.com/2018/04/03/apache-user-homepages-automatically-salt-package-file-service-example/)
+
+![image](https://github.com/LeeviHuttunen/Palvelintenhallinta/assets/165004822/7a1829cc-db97-4277-a574-4ff51efb3793)
+
+Ja sitten ajoin konfiguroinnin:
+
+![image](https://github.com/LeeviHuttunen/Palvelintenhallinta/assets/165004822/e952e909-7158-4f96-994d-8137e1721b1c)
+
+Hmm.. Joku ei onnistunut. Katsotaas mikä näyttää punaista:
+
+![image](https://github.com/LeeviHuttunen/Palvelintenhallinta/assets/165004822/14f18832-d3c0-424d-b295-9afd03bf0fdf)
+
+Index.html ei taida olla oikeassa paikassa, kopsataan se oikeaan paikkaan ja koitetaan ajaa komento uudelleen.
+
+![image](https://github.com/LeeviHuttunen/Palvelintenhallinta/assets/165004822/71700542-e68c-4a74-8661-780f69f6f2a5)
 
 
 
 
+# Lähteet
+
+-Apachen serverin asetuksia. Luettavissa: https://ubuntu.com/server/docs/how-to-configure-apache2-settings Luettu 11.5.2024
+
+- 
 
