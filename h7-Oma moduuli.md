@@ -4,7 +4,7 @@ Lisenssi: GNU General Public License, versio 3
 
 
 # Projektin tarkoitus:
-Projektin tarkoituksena oli aluksi tehdä jalkapallojoukkueelle kotisivut, jonne lisätään Saltilla uusille käyttäjille käyttäjänimet ja salasanat. Ladataan tarvittavat paketit ja määritellään palomuurin ja apachen asetukset. Tähän tuli kuitenkin muutos, kun en päässytkään enää virtuaalikoneeseen sisälle yön jälkeen. Onneksi minulla on kuitenkin vielä kurssin alusta jäänyt virtuaalikone, joten koitetaan siellä tehdä vielä hommaa eteenpäin.
+Projektin tarkoituksena oli aluksi tehdä jalkapallojoukkueelle kotisivut, jonne lisätään Saltilla uusille käyttäjille käyttäjänimet ja salasanat. Ladataan tarvittavat paketit ja määritellään palomuurin ja apachen asetukset. Tähän tuli kuitenkin muutos, kun en päässytkään enää virtuaalikoneeseen sisälle yön jälkeen. Onneksi minulla on kuitenkin vielä kurssin alusta jäänyt virtuaalikone, joten koitetaan siellä tehdä vielä hommaa eteenpäin niin paljon, kuin ehtii.
 
 ## Aloitus:
 Aivan ensiksi loin uuden virtuaalikoneen komennolla    `vagrant init debian/bullseye64` Sitten kirjauduin koneelle sisään.
@@ -62,7 +62,7 @@ Noniin jätin tämän tähän kohtaan ja koitin jatkaa projektia seuraavana päi
 Pitää vaihtaa taktiikkaa. Aikaa edellisissä kohdissa meni jo paljon ja aika alkaa loppumaan. Onneksi minulla on toinen virtuaalikone, joten jatketaan hommia sillä niin paljon, kuin ehditään.
 
 
-## 
+## Apachea ja suolaa
 Noniin, ensiksi katsotaan, mitä tällä virtuaalikoneella on. Olen käyttänyt tätä virtuaalikonetta aina välillä edellisissä tehtävissä. 
 Koneella on valmiiksi asennettuna herra-orja arkkitehtuuri. 
 
@@ -115,7 +115,7 @@ Index.html ei taida olla oikeassa paikassa, kopsataan se oikeaan paikkaan ja koi
 
 ![image](https://github.com/LeeviHuttunen/Palvelintenhallinta/assets/165004822/71700542-e68c-4a74-8661-780f69f6f2a5)
 
-
+Mutta ei silti onnistunut. Noh, ei se mitään. Aika alkaa olemaan tiukilla. Ainakin sivu toimii vielä.
 
 
 # Lähteet
