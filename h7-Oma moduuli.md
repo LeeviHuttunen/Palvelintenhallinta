@@ -4,7 +4,7 @@ Lisenssi: GNU General Public License, versio 3
 
 
 # Projektin tarkoitus:
-Projektin tarkoituksena oli aluksi tehdä jalkapallojoukkueelle kotisivut, jonne lisätään Saltilla uusille käyttäjille käyttäjänimet ja salasanat. Ladataan tarvittavat paketit ja määritellään palomuurin ja apachen asetukset. Tähän tuli kuitenkin muutos, kun en päässytkään enää virtuaalikoneeseen sisälle yön jälkeen. Onneksi minulla on kuitenkin vielä kurssin alusta jäänyt virtuaalikone, joten koitetaan siellä tehdä vielä hommaa eteenpäin niin paljon, kuin ehtii.
+Projektin tarkoituksena oli aluksi tehdä jalkapallojoukkueelle kotisivut, jonne lisätään https-sertifikaatti. Ladataan tarvittavat paketit ja määritellään palomuurin ja apachen asetukset. Tähän tuli kuitenkin muutos, kun en päässytkään enää virtuaalikoneeseen sisälle yön jälkeen. Onneksi minulla on kuitenkin vielä kurssin alusta jäänyt virtuaalikone, joten koitetaan siellä tehdä vielä hommaa eteenpäin niin paljon, kuin ehtii.
 
 ## Aloitus:
 Aivan ensiksi loin uuden virtuaalikoneen komennolla    `vagrant init debian/bullseye64` Sitten kirjauduin koneelle sisään.
