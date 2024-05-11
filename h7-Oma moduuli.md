@@ -59,11 +59,11 @@ Noniin jätin tämän tähän kohtaan ja koitin jatkaa projektia seuraavana päi
 
 ![image](https://github.com/LeeviHuttunen/Palvelintenhallinta/assets/165004822/36dc16f4-0adb-4849-bf6f-0c84aa7304ac)
 
-Pitää vaihtaa taktiikkaa. Aikaa edellissisä kohdissa meni jo paljon ja aika alkaa loppumaan. Onneksi minulla on toinen virtuaalikone, joten jatketaan hommia sillä.
+Pitää vaihtaa taktiikkaa. Aikaa edellisissä kohdissa meni jo paljon ja aika alkaa loppumaan. Onneksi minulla on toinen virtuaalikone, joten jatketaan hommia sillä niin paljon, kuin ehditään.
 
 
 ## 
-Ensiksi katsotaan, mitä tällä virtuaalikoneella on. Olen käyttänyt tätä virtuaalikonetta aina välillä edellisissä tehtävissä. 
+Noniin, ensiksi katsotaan, mitä tällä virtuaalikoneella on. Olen käyttänyt tätä virtuaalikonetta aina välillä edellisissä tehtävissä. 
 Koneella on valmiiksi asennettuna herra-orja arkkitehtuuri. 
 
 ![image](https://github.com/LeeviHuttunen/Palvelintenhallinta/assets/165004822/dff6590d-56af-40ff-ac3d-3261e141eed9)
@@ -80,7 +80,7 @@ Näkyyhän se. Katsotaan näkyykö sama web-selaimessa komennolla `hostname -I` 
 
 ![image](https://github.com/LeeviHuttunen/Palvelintenhallinta/assets/165004822/ae8ba025-bb9a-49a7-8c48-4f8849d184d9)
 
-Jeejee näkyy sekin. Seuraavaksi koittaa mielenkiintoinen kohta. Pitäisi koodata nettisivuille jonkinlainen sisältö. Ainakin laatikko, mistä voi kirjautua sisään. Ainut ohjelmistokehitys kurssi tähän mennessä on vuosi sitten käyty javascript-peruskurssi vuosi sitten. Katson netistä jotkut ohjeet tähän. 
+Jeejee näkyy sekin. Seuraavaksi koittaa mielenkiintoinen kohta. Pitäisi koodata nettisivuille jonkinlainen sisältö. Ainakin laatikko, mistä voi kirjautua sisään. Ainut ohjelmistokehitys-kurssi tähän mennessä on vuosi sitten käyty javascript-peruskurssi vuosi sitten.
 
 Menin siis tässä vaiheessa muokkaamaan index.html:llää. Tässä jonkinlainen alkeellinen nettisivu:
 
