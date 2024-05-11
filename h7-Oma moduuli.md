@@ -66,9 +66,10 @@ Pitää vaihtaa taktiikkaa. Aikaa edellisissä kohdissa meni jo paljon ja aika a
 Noniin, ensiksi katsotaan, mitä tällä virtuaalikoneella on. Olen käyttänyt tätä virtuaalikonetta aina välillä edellisissä tehtävissä. 
 Koneella on valmiiksi asennettuna herra-orja arkkitehtuuri. Se asennettiin tehtävässäni h2 soitto kotiin.
 
+Katsotaan vielä saltin cmd.run-tilalla:
+
 ![image](https://github.com/LeeviHuttunen/Palvelintenhallinta/assets/165004822/dff6590d-56af-40ff-ac3d-3261e141eed9)
 
-Katsotaan vielä saltin cmd.run-tilalla:
 
 ![image](https://github.com/LeeviHuttunen/Palvelintenhallinta/assets/165004822/8eefa6d8-d5f4-4ebc-b81e-a9b40f5200bd)
 
