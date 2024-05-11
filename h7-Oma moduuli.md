@@ -57,7 +57,12 @@ Noniin jätin tämän tähän ja koitin jatkaa projektia seuraavana päivänä. 
 ![image](https://github.com/LeeviHuttunen/Palvelintenhallinta/assets/165004822/36dc16f4-0adb-4849-bf6f-0c84aa7304ac)
 
 
-Pitää vaihtaa taktiikkaa. Ladataan sudoku ja laitetaan saltin orja ratkaisemaan 
+Pitää vaihtaa taktiikkaa. Ladataan sudoku saltin paketinhallinnalla ja laitetaan saltin orja myös töihin.
+
+Ensiksi katsotaan, mitä tällä virtuaalikoneella on. Olen käyttänyt tätä virtuaalikonetta viimeksi kurssin alussa. 
+Konella on valmiiksi asennettuna herra-orja arkkitehtuuri. 
+
+![image](https://github.com/LeeviHuttunen/Palvelintenhallinta/assets/165004822/dff6590d-56af-40ff-ac3d-3261e141eed9)
 
 
 
