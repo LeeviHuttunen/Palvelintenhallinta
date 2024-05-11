@@ -48,7 +48,8 @@ Tässä näkee, että virtualbox on käytössä.
 <img width="121" alt="image" src="https://github.com/LeeviHuttunen/Palvelintenhallinta/assets/165004822/f7cb64b3-4495-41c7-99de-5cbb6559a0dd">
 
 Ja tässä näkee ip6-osoitteen
-<img width="227" alt="image" src="https://github.com/LeeviHuttunen/Palvelintenhallinta/assets/165004822/179dfc2b-b4fa-40f1-8543-c016b566e805">
+## Edit
+Otettu pois näkyvistä.
 
 Toivottavasti kaikki kuvat näkyvät :)
 
