@@ -26,7 +26,8 @@ Muutama valinta tiedoista:
 
 Ip-osoite ja verkon alipeite:
 
-![image](https://github.com/LeeviHuttunen/Palvelintenhallinta/assets/165004822/8725cc6e-0735-4b55-9d94-34f5014a61f5)
+## Edit 11.5.2024. 
+Otin ip-osoitteni pois näkyvistä, ettei koko maailma näe sitä :D
 
 Koneen kokonaismuisti:
 
