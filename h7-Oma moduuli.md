@@ -60,7 +60,7 @@ Noniin jätin tämän tähän ja koitin jatkaa projektia seuraavana päivänä. 
 Pitää vaihtaa taktiikkaa. Ladataan sudoku saltin paketinhallinnalla ja laitetaan saltin orja myös töihin.
 
 Ensiksi katsotaan, mitä tällä virtuaalikoneella on. Olen käyttänyt tätä virtuaalikonetta viimeksi kurssin alussa. 
-Konella on valmiiksi asennettuna herra-orja arkkitehtuuri. 
+Koneella on valmiiksi asennettuna herra-orja arkkitehtuuri. 
 
 ![image](https://github.com/LeeviHuttunen/Palvelintenhallinta/assets/165004822/dff6590d-56af-40ff-ac3d-3261e141eed9)
 
