@@ -119,7 +119,8 @@ Hmm.. Joku ei onnistunut. Katsotaas mikä näyttää punaista:
 
 Index.html ei taida olla oikeassa paikassa, kopsataan se oikeaan paikkaan ja koitetaan ajaa komento uudelleen.
 
-![image](https://github.com/LeeviHuttunen/Palvelintenhallinta/assets/165004822/71700542-e68c-4a74-8661-780f69f6f2a5)
+![image](https://github.com/LeeviHuttunen/Palvelintenhallinta/assets/165004822/d1e3781c-447e-49b8-8dbe-830ec0578f10)
+
 
 Mutta ei silti onnistunut. Noh, ei se mitään. Aika alkaa olemaan tiukilla, niin ikävä kyllä aikaa ei nyt jää sen selvittelyyn. Ainakin sivu toimii vielä ja muut osat näyttävät vihreetä:
 
