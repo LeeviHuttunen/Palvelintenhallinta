@@ -55,13 +55,13 @@ Sallitaan lupa ulos lähtevälle liikenteelle:
 
 ## Seuraavana päivänä
 
-Noniin jätin tämän tähän ja koitin jatkaa projektia seuraavana päivänä. En päässyt enään tuolle samalle Vagrant-koneelle sisään.
+Noniin jätin tämän tähän ja koitin jatkaa projektia seuraavana päivänä. En päässyt enään tuolle samalle Vagrant-koneelle sisään. Curl localhost kuitenkin toimi tässä vaiheessa, jota en ehtinyt laittaa tähän.
 
 ![image](https://github.com/LeeviHuttunen/Palvelintenhallinta/assets/165004822/36dc16f4-0adb-4849-bf6f-0c84aa7304ac)
 
-Pitää vaihtaa taktiikkaa. Ladataan sudoku saltin paketinhallinnalla ja laitetaan saltin orja myös töihin.
+Pitää vaihtaa taktiikkaa. Aikaa edellissisä kohdissa meni jo paljon ja aika alkaa loppumaan. Onneksi minulla on toinen virtuaalikone, jossa on ladattuna joitain sovelluksia, mitä tarvitaan.
 
-Ensiksi katsotaan, mitä tällä virtuaalikoneella on. Olen käyttänyt tätä virtuaalikonetta viimeksi kurssin alussa. 
+Ensiksi katsotaan, mitä tällä virtuaalikoneella on. Olen käyttänyt tätä virtuaalikonetta aina välillä edellisissä tehtävissä. 
 Koneella on valmiiksi asennettuna herra-orja arkkitehtuuri. 
 
 ![image](https://github.com/LeeviHuttunen/Palvelintenhallinta/assets/165004822/dff6590d-56af-40ff-ac3d-3261e141eed9)
@@ -70,7 +70,17 @@ Okei, katsotaan nopeasti hello world tilalla saltin toiminta:
 
 ![image](https://github.com/LeeviHuttunen/Palvelintenhallinta/assets/165004822/03e3dcf8-ed2f-4212-a23f-0097cb41e7d1)
 
-Jaahas, sinne oltiin jo laitettu vaikka mitä. Ylimpänä kuitenkin näkyy hello world-tila.
+Jaahas, sinne oltiin jo laitettu vaikka mitä. Ylimpänä kuitenkin näkyy hello world-tila. Apache ja ssh:n asennus on myös tehty. Katsotaas Curl localhost.
+
+![image](https://github.com/LeeviHuttunen/Palvelintenhallinta/assets/165004822/b27b5c98-571f-4dc3-8637-d39e14fcd727)
+
+Näkyyhän se. Katsotaan näkyykö sama web-selaimessa komennolla `hostname -I`:
+
+![image](https://github.com/LeeviHuttunen/Palvelintenhallinta/assets/165004822/ae8ba025-bb9a-49a7-8c48-4f8849d184d9)
+
+Jeejee näkyy sekin. Seuraavaksi koittaa mielenkiintoinen kohta. Pitäisi koodata nettisivuille jonkinlainen sisältö. Ainakin laatikko, mistä voi kirjautua sisään. Ainut ohjelmistokehitys kurssi tähän mennessä on vuosi sitten käyty javascript-peruskurssi vuosi sitten. Katson netistä jotkut ohjeet tähän. 
+
+
 
 
 
