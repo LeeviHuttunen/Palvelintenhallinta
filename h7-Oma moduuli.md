@@ -122,7 +122,7 @@ Index.html ei taida olla oikeassa paikassa, kopsataan se oikeaan paikkaan ja koi
 ![image](https://github.com/LeeviHuttunen/Palvelintenhallinta/assets/165004822/d1e3781c-447e-49b8-8dbe-830ec0578f10)
 
 
-Mutta ei silti onnistunut. Noh, ei se mitään. Aika alkaa olemaan tiukilla, niin ikävä kyllä aikaa ei nyt jää sen selvittelyyn. Ainakin sivu toimii vielä ja muut osat näyttävät vihreetä:
+Mutta ei silti onnistunut. Noh, ei se mitään. Koitin tätä selvitellä pitkään, mutta en saanut selville, missä vika. Ainakin sivu toimii vielä, muut osat näyttävät vihreetä ja sivu näkee vieläkin selaimessa:
 
 ![image](https://github.com/LeeviHuttunen/Palvelintenhallinta/assets/165004822/da6a2b24-7b0a-4ace-8bc5-bf735e2ee542)
 
