@@ -132,7 +132,7 @@ Mutta ei silti onnistunut. Noh, ei se mitään. Koitin tätä selvitellä pitkä
 Noniin, katsotaas minulle uuden tuttavuuden Certbotin toimintaa. Certbot on avoimen lähdekoodin työkalu, jolla voi saada omalle nettisivulleen https-sertifikaatin. Sertifikaatti uusiutuu 60 päivän välein. Muistaakseni, kun sivun vaihtaa https:ssään, se menee hetkeksi hakutuloksissa viimeiseksi. 
 
 
-Ensimmäiseksi pitäisi asentaa snap. Snap on paketinhallintajärjestelmä, saman tyyppinen kuin apt.
+Ensimmäiseksi pitäisi asentaa snap. Snap on paketinhallintajärjestelmä, saman tyyppinen kuin apt. Snapin pitää olla päällä taustalla, jotta se toimii. 
 
 Asennetaan snap kommennolla `sudo apt install snapd` 
 Seuraavaksi pyydettiin käynnistämään kone uudelleen, jotta snapin polut menevät oikeille paikoille? :D
@@ -159,6 +159,49 @@ Komennolla `hello-world` näkee toimiiko se:
 ![image](https://github.com/LeeviHuttunen/Palvelintenhallinta/assets/165004822/477b0dc8-b4cb-4827-8fa5-1935f1a30933)
 
 Toimii, Jee!
+
+Noniin, sitten asennetaan se Certbot komennolla `sudo snap install --classic certbot` Certbottia ei siis voi vissiin asentaa apt-paketinhallinnan kautta?
+
+![image](https://github.com/LeeviHuttunen/Palvelintenhallinta/assets/165004822/b5cf3c44-81a8-4be7-b8ba-1d3b21cbb024)
+
+Sitten pitää laittaa Certbot toimintavalmiuteen. Eli laitetaan komento `sudo ln -s /snap/bin/certbot /usr/bin/certbot`
+
+Komento laitettu, mutta mitään ei tapahtunut:
+
+![image](https://github.com/LeeviHuttunen/Palvelintenhallinta/assets/165004822/12ba4725-fe09-4693-99e2-51ca1adf1ac5)
+
+Noniin, sitten viimeinen ja ratkaiseva vaihe. Asennetaan Certbot apacheen. Tällä hetkellä web-serverillä lukee, ettei apachella tehty nettisivu ole turvallinen:
+
+![image](https://github.com/LeeviHuttunen/Palvelintenhallinta/assets/165004822/c5c98cdb-d377-4c64-8a87-3075e70404be)
+
+Niin yksinkertaisella komennolla kuin `sudo certbot --apache` Certbotin pitäisi antaa sertifikaatti Apachen nettiserverille.
+Kokeillaan pelonsekaisin tuntein: 
+
+![image](https://github.com/LeeviHuttunen/Palvelintenhallinta/assets/165004822/431bff68-69ac-4662-8ab8-4238d6200b4e)
+
+Jaahas, sähköposti pitää laittaa.  Tässä vielä varoitellaan, että sertifikaattia ei voi jatkaa, jos ei laita sähköpostia. 
+
+![image](https://github.com/LeeviHuttunen/Palvelintenhallinta/assets/165004822/70706358-421a-408b-852c-1236afb769ac)
+
+Laitoin sähköpostin ja seuraavaksi kyseltii suostumuksia:
+
+![image](https://github.com/LeeviHuttunen/Palvelintenhallinta/assets/165004822/dfc05171-2bc7-4b61-8da3-111693af592d)
+
+Ja sitten kyseltiin, saako lähetellä mainoksia sähköpostiin:
+
+![image](https://github.com/LeeviHuttunen/Palvelintenhallinta/assets/165004822/3a25131b-4a57-434f-8de5-b545001009fc)
+
+Seuraavaksi kysyttiin domain nimeä. Laitan tähän ip-osoitteen, toivottavasti se kelpaa:
+
+![image](https://github.com/LeeviHuttunen/Palvelintenhallinta/assets/165004822/601bfd43-9a3c-4472-a96c-cb291ca32dff)
+
+Certbot ei myönnä pelkästään ip-osoitteille sertifikaattia, vaan pitäisi olla domain nimi. 
+
+![image](https://github.com/LeeviHuttunen/Palvelintenhallinta/assets/165004822/ccb1874b-ae1e-442d-945b-3799b2c35f8f)
+
+Jaahas, taitaa jäädä domain-nimi hankkimatta :D Uskon kuitenkin, että homma olisi onnistunut, mutta köyhällä opiskelijalla ei ole rahaa moiseen.
+
+
 
 
 
