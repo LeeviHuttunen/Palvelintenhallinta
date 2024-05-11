@@ -36,7 +36,7 @@ No niin, sitten päästään konfiguroimaan apachea ja ufw:tä. Ensiksi aletaan 
 ![image](https://github.com/LeeviHuttunen/Palvelintenhallinta/assets/165004822/aac622c0-f52e-4ca2-9dc9-c4d3f34ad58c)
 
 Hmm.. Jännä juttu, siellä pitäisi olla apache..
-Valitaan kuitenkin sieltä OpenSSH, jotta palomuuri sallii ssh-yhteyden. Joten komennolla `sudo ufw allow OpenSSH` annettin lupa ssh-yhteydelle:
+Valitaan kuitenkin sieltä OpenSSH, jotta palomuuri sallii ssh-yhteyden. Joten komennolla `sudo ufw allow OpenSSH` annettiin lupa ssh-yhteydelle:
 
 ![image](https://github.com/LeeviHuttunen/Palvelintenhallinta/assets/165004822/3935ce07-10d0-498a-a27a-1e8eaf6c84d9)
 
@@ -55,7 +55,7 @@ Sallitaan lupa ulos lähtevälle liikenteelle:
 
 ## Seuraavana päivänä
 
-Noniin jätin tämän tähän ja koitin jatkaa projektia seuraavana päivänä. En päässyt enään tuolle samalle Vagrant-koneelle sisään. Curl localhost kuitenkin toimi tässä vaiheessa, jota en ehtinyt laittaa tähän.
+Noniin jätin tämän tähän kohtaan ja koitin jatkaa projektia seuraavana päivänä. En päässyt enään tuolle samalle Vagrant-koneelle sisään. Curl localhost kuitenkin toimi tässä vaiheessa, jota en ehtinyt laittaa tähän.
 
 ![image](https://github.com/LeeviHuttunen/Palvelintenhallinta/assets/165004822/36dc16f4-0adb-4849-bf6f-0c84aa7304ac)
 
@@ -70,19 +70,26 @@ Okei, katsotaan nopeasti hello world tilalla saltin toiminta:
 
 ![image](https://github.com/LeeviHuttunen/Palvelintenhallinta/assets/165004822/03e3dcf8-ed2f-4212-a23f-0097cb41e7d1)
 
-Jaahas, sinne oltiin jo laitettu vaikka mitä. Ylimpänä kuitenkin näkyy hello world-tila. Apache ja ssh:n asennus on myös tehty. Katsotaas Curl localhost.
+Jaahas, sinne oltiin jo laitettu vaikka mitä. Ylimpänä kuitenkin näkyy hello world-tila. Apachen asennus on myös tehty. Katsotaas Curl localhost.
 
 ![image](https://github.com/LeeviHuttunen/Palvelintenhallinta/assets/165004822/b27b5c98-571f-4dc3-8637-d39e14fcd727)
 
-Näkyyhän se. Katsotaan näkyykö sama web-selaimessa komennolla `hostname -I`:
+Näkyyhän se. Katsotaan näkyykö sama web-selaimessa komennolla `hostname -I` ja sieltä laitetaan browseriin ip-osoite:
 
 ![image](https://github.com/LeeviHuttunen/Palvelintenhallinta/assets/165004822/ae8ba025-bb9a-49a7-8c48-4f8849d184d9)
 
 Jeejee näkyy sekin. Seuraavaksi koittaa mielenkiintoinen kohta. Pitäisi koodata nettisivuille jonkinlainen sisältö. Ainakin laatikko, mistä voi kirjautua sisään. Ainut ohjelmistokehitys kurssi tähän mennessä on vuosi sitten käyty javascript-peruskurssi vuosi sitten. Katson netistä jotkut ohjeet tähän. 
 
+Menin siis tässä vaiheessa muokkaamaan index.html:llää. Tässä jonkinlainen alkeellinen nettisivu:
 
+![image](https://github.com/LeeviHuttunen/Palvelintenhallinta/assets/165004822/baecafe0-3c37-44f5-b896-eb358743e6d2)
 
+Aloitan tässä kohtaa "matalilla roikkuvista hedelmistä", eli teen ensin pienemmän koodin pätkän ja katson toimiiko se.
+Kyllähän se harmittaisi koodata monta tuntia jotain huomatakseen, ettei homma toimi.
 
+![image](https://github.com/LeeviHuttunen/Palvelintenhallinta/assets/165004822/a6c0ecdd-252c-4f48-95ba-b3684120c628)
+
+Noniin, nettisivu päivittyi. Pitää muistaa, ettei html näytä tykkäävään ääkkösistä.
 
 
 
