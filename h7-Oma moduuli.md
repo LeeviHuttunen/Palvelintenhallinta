@@ -72,7 +72,7 @@ Okei, katsotaan nopeasti hello world tilalla saltin toiminta:
 
 ![image](https://github.com/LeeviHuttunen/Palvelintenhallinta/assets/165004822/03e3dcf8-ed2f-4212-a23f-0097cb41e7d1)
 
-Jaahas, sinne oltiin jo laitettu vaikka mitä. Ylimpänä kuitenkin näkyy hello world-tila. Apachen asennus on myös tehty. 
+Jaahas, siellä se Leevi-minion pyörii ja sinne oltiin jo laitettu vaikka mitä. Ylimpänä kuitenkin näkyy hello world-tila. Apachen asennus on myös tehty. 
 Muokataan etusivu.conf seuraavaan muotoon :
 
 ![image](https://github.com/LeeviHuttunen/Palvelintenhallinta/assets/165004822/93947762-562a-4b89-90e2-7e2f0e2fbfed)
@@ -115,12 +115,26 @@ Index.html ei taida olla oikeassa paikassa, kopsataan se oikeaan paikkaan ja koi
 
 ![image](https://github.com/LeeviHuttunen/Palvelintenhallinta/assets/165004822/71700542-e68c-4a74-8661-780f69f6f2a5)
 
-Mutta ei silti onnistunut. Noh, ei se mitään. Aika alkaa olemaan tiukilla. Ainakin sivu toimii vielä.
+Mutta ei silti onnistunut. Noh, ei se mitään. Aika alkaa olemaan tiukilla, niin ikävä kyllä aikaa ei nyt jää sen selvittelyyn. Ainakin sivu toimii vielä ja muut osat näyttävät vihreetä:
+
+![image](https://github.com/LeeviHuttunen/Palvelintenhallinta/assets/165004822/da6a2b24-7b0a-4ace-8bc5-bf735e2ee542)
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 # Lähteet
 
--Apachen serverin asetuksia. Luettavissa: https://ubuntu.com/server/docs/how-to-configure-apache2-settings Luettu 11.5.2024
+- Apachen serverin asetuksia. Luettavissa: https://ubuntu.com/server/docs/how-to-configure-apache2-settings Luettu 11.5.2024
 
 - 
 
