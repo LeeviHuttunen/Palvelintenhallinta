@@ -74,7 +74,7 @@ Katsotaan vielä saltin cmd.run-tilalla:
 ![image](https://github.com/LeeviHuttunen/Palvelintenhallinta/assets/165004822/8eefa6d8-d5f4-4ebc-b81e-a9b40f5200bd)
 
 
-Okei, katsotaan nopeasti hello world tilalla saltin toiminta:
+Okei, asennetaan saltiin paketinhallinnalla apache ja curl:
 
 ![image](https://github.com/LeeviHuttunen/Palvelintenhallinta/assets/165004822/03e3dcf8-ed2f-4212-a23f-0097cb41e7d1)
 
