@@ -1,5 +1,8 @@
 # Miniprojekti Leevi Huttunen 2024
 
+Lisenssi: GNU General Public License, versio 3
+
+
 # Projektin tarkoitus:
 Projektin tarkoituksena oli aluksi tehdä jalkapallojoukkueelle kotisivut, jonne lisätään Saltilla uusille käyttäjille käyttäjänimet ja salasanat. Ladataan tarvittavat paketit ja määritellään palomuurin ja apachen asetukset. Tähän tuli kuitenkin muutos, kun en päässytkään enää virtuaalikoneeseen sisälle yön jälkeen. Onneksi minulla on kuitenkin vielä kurssin alusta jäänyt virtuaalikone, joten tehdään siellä jotain.
 
@@ -56,13 +59,23 @@ Noniin jätin tämän tähän ja koitin jatkaa projektia seuraavana päivänä. 
 
 ![image](https://github.com/LeeviHuttunen/Palvelintenhallinta/assets/165004822/36dc16f4-0adb-4849-bf6f-0c84aa7304ac)
 
-
 Pitää vaihtaa taktiikkaa. Ladataan sudoku saltin paketinhallinnalla ja laitetaan saltin orja myös töihin.
 
 Ensiksi katsotaan, mitä tällä virtuaalikoneella on. Olen käyttänyt tätä virtuaalikonetta viimeksi kurssin alussa. 
 Koneella on valmiiksi asennettuna herra-orja arkkitehtuuri. 
 
 ![image](https://github.com/LeeviHuttunen/Palvelintenhallinta/assets/165004822/dff6590d-56af-40ff-ac3d-3261e141eed9)
+
+Okei, katsotaan nopeasti hello world tilalla saltin toiminta:
+
+![image](https://github.com/LeeviHuttunen/Palvelintenhallinta/assets/165004822/03e3dcf8-ed2f-4212-a23f-0097cb41e7d1)
+
+Jaahas, sinne oltiin jo laitettu vaikka mitä. Ylimpänä kuitenkin näkyy hello world-tila.
+
+
+
+
+
 
 
 
