@@ -78,11 +78,20 @@ Okei, asennetaan saltiin paketinhallinnalla apache ja curl:
 
 ![image](https://github.com/LeeviHuttunen/Palvelintenhallinta/assets/165004822/03e3dcf8-ed2f-4212-a23f-0097cb41e7d1)
 
-Jaahas, siellä se Leevi-minion pyörii ja sinne oltiin jo laitettu vaikka mitä. Ylimpänä kuitenkin näkyy hello world-tila. Apachen asennus on myös tehty. 
+Jaahas, siellä se Leevi-minion pyörii ja olinkin sinne laittanut alkuvaiheen kannalta hyödyllisiä paketteja Saltin paketinhallinnalla. Ylimpänä kuitenkin näkyy hello world-tila. Apachen ja Curlin asennus on myös varmistettu.. 
 Muokataan etusivu.conf seuraavaan muotoon :
 
 ![image](https://github.com/LeeviHuttunen/Palvelintenhallinta/assets/165004822/93947762-562a-4b89-90e2-7e2f0e2fbfed)
 
+Ja laitetaan se polkuun /etc/apache2/sites-available ja /etc/apache2/sites-enabled/
+
+![image](https://github.com/LeeviHuttunen/Palvelintenhallinta/assets/165004822/d61b05be-c640-4cd8-abf8-2c43fc9b34b7)
+
+Restartataan demoni ja katsotaan toimiiko. Komento `sudo systemctrl restart apache2` käynnistää apachen uudelleen.
+
+Okei, ainakin etusivu.conf näyttää turkoosilta:
+
+![image](https://github.com/LeeviHuttunen/Palvelintenhallinta/assets/165004822/e3dc687a-7a78-497d-8517-6c991f6c9a87)
 
 Katsotaas Curl localhost.
 
@@ -199,10 +208,10 @@ Certbot ei myönnä pelkästään ip-osoitteille sertifikaattia, vaan pitäisi o
 
 ![image](https://github.com/LeeviHuttunen/Palvelintenhallinta/assets/165004822/ccb1874b-ae1e-442d-945b-3799b2c35f8f)
 
-Jaahas, taitaa jäädä domain-nimi hankkimatta :D Uskon kuitenkin, että homma olisi onnistunut, mutta köyhällä opiskelijalla ei ole rahaa moiseen.
+Jaahas, taitaa jäädä domain-nimi hankkimatta :D Uskon kuitenkin, että homma olisi onnistunut, mutta en näe tarvetta maksaa testisivun domainista.
 
 
-
+Olisi ollut vielä mielenkiintoista tutustua Snap-paketinhallintaan, mutta taitaa mennä omalle ajalle :)
 
 
 
