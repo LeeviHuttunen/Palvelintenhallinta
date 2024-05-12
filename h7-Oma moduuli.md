@@ -222,3 +222,8 @@ Olisi ollut vielä mielenkiintoista tutustua Snap-paketinhallintaan, mutta taita
 
 - Certbotin sivut. Luettavissa: https://certbot.eff.org/instructions?ws=apache&os=debianbuster Luettu 11.5.2024
 
+- Omat aikaisemmat kotitehtävät
+
+- Karvinen, T. Apachen automatisointia https://terokarvinen.com/2018/04/03/apache-user-homepages-automatically-salt-package-file-service-example/
+
+- Karvinen, T. Infra as code https://terokarvinen.com/2024/configuration-management-2024-spring/
