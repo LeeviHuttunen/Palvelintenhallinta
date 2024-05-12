@@ -4,7 +4,7 @@ Lisenssi: GNU General Public License, versio 3
 
 
 # Projektin tarkoitus:
-Projektin tarkoituksena oli aluksi tehdä jalkapallojoukkueelle kotisivut, jonne lisätään https-sertifikaatti. Ladataan tarvittavat paketit ja määritellään palomuurin ja apachen asetukset. Tähän tuli kuitenkin muutos, kun en päässytkään enää virtuaalikoneeseen sisälle yön jälkeen. Onneksi minulla on kuitenkin vielä kurssin alusta jäänyt virtuaalikone, joten koitetaan siellä tehdä vielä hommaa eteenpäin niin paljon, kuin ehtii.
+Projektin tarkoituksena oli tehdä jalkapallojoukkueelle kotisivut, jonne lisätään https-sertifikaatti. Ladataan tarvittavat paketit, käytetään hieman saltia ja määritellään palomuurin ja apachen asetukset. Tähän tuli kuitenkin muutos, kun en päässytkään enää virtuaalikoneeseen sisälle yön jälkeen. Onneksi minulla on kuitenkin vielä kurssin alusta jäänyt virtuaalikone, joten koitetaan siellä tehdä vielä hommaa eteenpäin niin paljon, kuin ehtii.
 
 ## Aloitus:
 Aivan ensiksi loin uuden virtuaalikoneen komennolla    `vagrant init debian/bullseye64` Sitten kirjauduin koneelle sisään.
@@ -208,12 +208,13 @@ Certbot ei myönnä pelkästään ip-osoitteille sertifikaattia, vaan pitäisi o
 
 ![image](https://github.com/LeeviHuttunen/Palvelintenhallinta/assets/165004822/ccb1874b-ae1e-442d-945b-3799b2c35f8f)
 
-Jaahas, taitaa jäädä domain-nimi hankkimatta :D Uskon kuitenkin, että homma olisi onnistunut, mutta en näe tarvetta maksaa testisivun domainista.
+Jaahas, taitaa jäädä domain-nimi hankkimatta. Uskon kuitenkin, että homma olisi onnistunut, mutta en näe tarvetta maksaa testisivun domainista.
 
+Nettisivu jäi nyt "ei turvalliseksi" Domain nimen ostamalla ja Certbottia käyttämällä siitä olisi saatu "turvallinen".
 
-Olisi ollut vielä mielenkiintoista tutustua Snap-paketinhallintaan, mutta taitaa mennä omalle ajalle :)
+![image](https://github.com/LeeviHuttunen/Palvelintenhallinta/assets/165004822/416b291e-ade2-43b0-80de-1602a4474a45)
 
-
+Olen kuitenkin suht tyytyväinen lopputulokseen, jos ottaa huomioon ekan Vagrant-koneen ongelmat. Olisi ollut kiva vielä tutustua Snap-paketinhallintaan, mutta se taitaa jäädä omalle ajalle.
 
 
 # Lähteet
