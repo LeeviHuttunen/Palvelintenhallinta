@@ -188,7 +188,7 @@ Kokeillaan pelonsekaisin tuntein:
 
 ![image](https://github.com/LeeviHuttunen/Palvelintenhallinta/assets/165004822/431bff68-69ac-4662-8ab8-4238d6200b4e)
 
-Jaahas, sähköposti pitää laittaa.  Tässä vielä varoitellaan, että sertifikaattia ei voi jatkaa, jos ei laita sähköpostia. 
+Jaahas, sähköposti pitää laittaa.  Tässä vielä varoitellaan, että sertifikaattia ei voi jatkaa tulevaisuudessa, jos ei laita sähköpostia tähän.
 
 ![image](https://github.com/LeeviHuttunen/Palvelintenhallinta/assets/165004822/70706358-421a-408b-852c-1236afb769ac)
 
