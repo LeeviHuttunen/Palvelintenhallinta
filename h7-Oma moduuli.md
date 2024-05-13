@@ -228,3 +228,5 @@ Olen kuitenkin suht tyytyväinen lopputulokseen, jos ottaa huomioon ekan Vagrant
 - Karvinen, T. Apachen automatisointia https://terokarvinen.com/2018/04/03/apache-user-homepages-automatically-salt-package-file-service-example/
 
 - Karvinen, T. Infra as code https://terokarvinen.com/2024/configuration-management-2024-spring/
+
+- Youtube-video apachen konfiguroinnista. https://www.youtube.com/watch?v=omvv_Wfb60o
