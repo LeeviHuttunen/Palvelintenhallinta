@@ -4,7 +4,7 @@ Lisenssi: GNU General Public License, versio 3
 
 
 # Projektin tarkoitus:
-Projektin tarkoituksena oli tehdä jalkapallojoukkueelle kotisivut, jonne lisätään https-sertifikaatti. Ladataan tarvittavat paketit, käytetään hieman saltia ja määritellään palomuurin ja apachen asetukset. Tehtävään tuli haasteita, kun en päässytkään enää virtuaalikoneeseen sisälle yön jälkeen. Onneksi minulla on kuitenkin vielä kurssin alusta jäänyt virtuaalikone, joten koitetaan siellä tehdä vielä hommaa eteenpäin niin paljon, kuin ehtii.
+Projektin tarkoituksena oli tehdä jalkapallojoukkueelle kotisivut, jonne lisätään https-sertifikaatti certbotin avulla. Ladataan tarvittavat paketit, käytetään saltia ja määritellään palomuurin ja apachen asetuksia. Tehtävään tuli haasteita, kun en päässytkään enää virtuaalikoneeseen sisälle yön jälkeen. Onneksi minulla on kuitenkin vielä kurssin alusta jäänyt virtuaalikone, joten koitetaan siellä tehdä vielä hommaa eteenpäin niin paljon, kuin ehtii.
 
 ## Aloitus:
 Aivan ensiksi loin uuden virtuaalikoneen komennolla    `vagrant init debian/bullseye64` Sitten kirjauduin koneelle sisään.
