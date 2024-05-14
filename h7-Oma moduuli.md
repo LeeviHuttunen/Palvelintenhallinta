@@ -1,4 +1,6 @@
-# Miniprojekti Leevi Huttunen 2024
+# Miniprojekti 
+
+Tekijä: Leevi Huttunen
 
 Lisenssi: GNU General Public License, versio 3
 
